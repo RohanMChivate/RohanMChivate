@@ -15,13 +15,13 @@ import argparse
 import html
 
 DEFAULT_SPECS = [
-    ("User", "developer@github"),
-    ("OS", "Arch Linux x86_64 / Linux 6.11.0-zen"),
-    ("Role", "Senior Systems & Full-Stack Architect"),
-    ("Stack", "Python, TypeScript, Rust, Go, SQL, React"),
-    ("Focus", "Distributed Systems, Low-Latency Web, Autonomous CI"),
-    ("Editor", "Neovim / VS Code"),
-    ("Location", "UTC / Remote"),
+    ("User", "RohanMChivate@github"),
+    ("OS", "Arch Linux x86_64 / Linux 6.11"),
+    ("Role", "CS Undergrad & Software Developer"),
+    ("Stack", "Python, C++, TypeScript, PyTorch, SQL"),
+    ("Focus", "Full-Stack Dev, Applied ML, Algorithms"),
+    ("Editor", "VS Code / Antigravity"),
+    ("Location", "India / Remote"),
 ]
 
 
@@ -147,13 +147,13 @@ def generate_info_card(specs: list[tuple[str, str]], output_path: str = "info-ca
 def main():
     parser = argparse.ArgumentParser(description="Generate info card SVG.")
     parser.add_argument("--output", "-o", default="info-card.svg", help="Output SVG path (default: info-card.svg)")
-    parser.add_argument("--user", default="developer@github")
-    parser.add_argument("--os", default="Arch Linux x86_64 / Linux 6.11.0-zen")
-    parser.add_argument("--role", default="Senior Systems & Full-Stack Architect")
-    parser.add_argument("--stack", default="Python, TypeScript, Rust, Go, SQL, React")
-    parser.add_argument("--focus", default="Distributed Systems, Low-Latency Web, Autonomous CI")
-    parser.add_argument("--editor", default="Neovim / VS Code")
-    parser.add_argument("--location", default="UTC / Remote")
+    parser.add_argument("--user", default="RohanMChivate@github")
+    parser.add_argument("--os", default="Arch Linux x86_64 / Linux 6.11")
+    parser.add_argument("--role", default="CS Undergrad & Software Developer")
+    parser.add_argument("--stack", default="Python, C++, TypeScript, PyTorch, SQL")
+    parser.add_argument("--focus", default="Full-Stack Dev, Applied ML, Algorithms")
+    parser.add_argument("--editor", default="VS Code / Antigravity")
+    parser.add_argument("--location", default="India / Remote")
     args = parser.parse_args()
 
     specs = [
