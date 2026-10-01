@@ -248,9 +248,7 @@ def rasterize(proj, scale, cx, cy):
             if np.isinf(zbuf[r, c]):
                 line.append(" ")
             else:
-                idx = int(round(sbuf[r, c] * (ramp_len - 1)))
-                idx = max(1, min(ramp_len - 1, idx))
-                line.append(RAMP[idx])
+                line.append("s")
         text_rows.append("".join(line))
     return text_rows
 
