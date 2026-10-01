@@ -42,14 +42,14 @@ FONT_PATH = DEFAULT_FONT_PATH
 FONT_INDEX = DEFAULT_FONT_INDEX
 
 COLS = int(os.environ.get("WORDMARK_COLS", 52))
-ROW_MARGIN = int(os.environ.get("WORDMARK_ROW_MARGIN", 6))
+ROW_MARGIN = int(os.environ.get("WORDMARK_ROW_MARGIN", 3))
 CELL_W = 8.6
-CELL_H = 15.5
+CELL_H = 14.2
 
 TEXT = os.environ.get("WORDMARK_TEXT", "ROHAN")
 USER_HANDLE = os.environ.get("WORDMARK_USER", "rohan")
 
-MASK_H = 300
+MASK_H = 260
 TRACKING = 0.12
 LINE_GAP = 1.20
 DEPTH_FRAC = 0.32
@@ -62,7 +62,7 @@ FIT = 0.92
 RAMP = " .`:-=+*csS#%@"
 LIGHT = np.array([-0.15, -0.45, -1.00])
 LIGHT = LIGHT / np.linalg.norm(LIGHT)
-AMBIENT = 0.22
+AMBIENT = 0.18
 FOG = 0.34
 FOG_SPAN = 0.55
 
@@ -70,7 +70,7 @@ BG = "#0d1117"
 BG2 = "#111722"
 FRAME = "#30363d"
 TITLE_TEXT = "#7d8590"
-INK = "#c9d1d9"
+INK = "#8b949e"
 
 PAD = 18
 TITLEBAR_H = 28
