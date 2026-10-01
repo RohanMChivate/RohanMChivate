@@ -1,0 +1,289 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 474 506" width="100%" height="100%" style="background: transparent; font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Monaco, Consolas, monospace;">
+  <defs>
+    <!-- Border Gradient -->
+    <linearGradient id="term-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#30363d" />
+      <stop offset="50%" stop-color="#484f58" />
+      <stop offset="100%" stop-color="#30363d" />
+    </linearGradient>
+    <clipPath id="wipe-row-0">
+      <rect x="16.0" y="45.5" width="0" height="13.0">
+        <animate attributeName="width" from="0" to="442.0" dur="0.05s" begin="0.0s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="wipe-row-1">
+      <rect x="16.0" y="56.5" width="0" height="13.0">
+        <animate attributeName="width" from="0" to="442.0" dur="0.05s" begin="0.04s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="wipe-row-2">
+      <rect x="16.0" y="67.5" width="0" height="13.0">
+        <animate attributeName="width" from="0" to="442.0" dur="0.05s" begin="0.08s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="wipe-row-3">
+      <rect x="16.0" y="78.5" width="0" height="13.0">
+        <animate attributeName="width" from="0" to="442.0" dur="0.05s" begin="0.12s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="wipe-row-4">
+      <rect x="16.0" y="89.5" width="0" height="13.0">
+        <animate attributeName="width" from="0" to="442.0" dur="0.05s" begin="0.16s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="wipe-row-5">
+      <rect x="16.0" y="100.5" width="0" height="13.0">
+        <animate attributeName="width" from="0" to="442.0" dur="0.05s" begin="0.2s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="wipe-row-6">
+      <rect x="16.0" y="111.5" width="0" height="13.0">
+        <animate attributeName="width" from="0" to="442.0" dur="0.05s" begin="0.24s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="wipe-row-7">
+      <rect x="16.0" y="122.5" width="0" height="13.0">
+        <animate attributeName="width" from="0" to="442.0" dur="0.05s" begin="0.28s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="wipe-row-8">
+      <rect x="16.0" y="133.5" width="0" height="13.0">
+        <animate attributeName="width" from="0" to="442.0" dur="0.05s" begin="0.32s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="wipe-row-9">
+      <rect x="16.0" y="144.5" width="0" height="13.0">
+        <animate attributeName="width" from="0" to="442.0" dur="0.05s" begin="0.36s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="wipe-row-10">
+      <rect x="16.0" y="155.5" width="0" height="13.0">
+        <animate attributeName="width" from="0" to="442.0" dur="0.05s" begin="0.4s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="wipe-row-11">
+      <rect x="16.0" y="166.5" width="0" height="13.0">
+        <animate attributeName="width" from="0" to="442.0" dur="0.05s" begin="0.44s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="wipe-row-12">
+      <rect x="16.0" y="177.5" width="0" height="13.0">
+        <animate attributeName="width" from="0" to="442.0" dur="0.05s" begin="0.48s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="wipe-row-13">
+      <rect x="16.0" y="188.5" width="0" height="13.0">
+        <animate attributeName="width" from="0" to="442.0" dur="0.05s" begin="0.52s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="wipe-row-14">
+      <rect x="16.0" y="199.5" width="0" height="13.0">
+        <animate attributeName="width" from="0" to="442.0" dur="0.05s" begin="0.56s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="wipe-row-15">
+      <rect x="16.0" y="210.5" width="0" height="13.0">
+        <animate attributeName="width" from="0" to="442.0" dur="0.05s" begin="0.6s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="wipe-row-16">
+      <rect x="16.0" y="221.5" width="0" height="13.0">
+        <animate attributeName="width" from="0" to="442.0" dur="0.05s" begin="0.64s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="wipe-row-17">
+      <rect x="16.0" y="232.5" width="0" height="13.0">
+        <animate attributeName="width" from="0" to="442.0" dur="0.05s" begin="0.68s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="wipe-row-18">
+      <rect x="16.0" y="243.5" width="0" height="13.0">
+        <animate attributeName="width" from="0" to="442.0" dur="0.05s" begin="0.72s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="wipe-row-19">
+      <rect x="16.0" y="254.5" width="0" height="13.0">
+        <animate attributeName="width" from="0" to="442.0" dur="0.05s" begin="0.76s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="wipe-row-20">
+      <rect x="16.0" y="265.5" width="0" height="13.0">
+        <animate attributeName="width" from="0" to="442.0" dur="0.05s" begin="0.8s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="wipe-row-21">
+      <rect x="16.0" y="276.5" width="0" height="13.0">
+        <animate attributeName="width" from="0" to="442.0" dur="0.05s" begin="0.84s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="wipe-row-22">
+      <rect x="16.0" y="287.5" width="0" height="13.0">
+        <animate attributeName="width" from="0" to="442.0" dur="0.05s" begin="0.88s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="wipe-row-23">
+      <rect x="16.0" y="298.5" width="0" height="13.0">
+        <animate attributeName="width" from="0" to="442.0" dur="0.05s" begin="0.92s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="wipe-row-24">
+      <rect x="16.0" y="309.5" width="0" height="13.0">
+        <animate attributeName="width" from="0" to="442.0" dur="0.05s" begin="0.96s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="wipe-row-25">
+      <rect x="16.0" y="320.5" width="0" height="13.0">
+        <animate attributeName="width" from="0" to="442.0" dur="0.05s" begin="1.0s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="wipe-row-26">
+      <rect x="16.0" y="331.5" width="0" height="13.0">
+        <animate attributeName="width" from="0" to="442.0" dur="0.05s" begin="1.04s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="wipe-row-27">
+      <rect x="16.0" y="342.5" width="0" height="13.0">
+        <animate attributeName="width" from="0" to="442.0" dur="0.05s" begin="1.08s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="wipe-row-28">
+      <rect x="16.0" y="353.5" width="0" height="13.0">
+        <animate attributeName="width" from="0" to="442.0" dur="0.05s" begin="1.12s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="wipe-row-29">
+      <rect x="16.0" y="364.5" width="0" height="13.0">
+        <animate attributeName="width" from="0" to="442.0" dur="0.05s" begin="1.16s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="wipe-row-30">
+      <rect x="16.0" y="375.5" width="0" height="13.0">
+        <animate attributeName="width" from="0" to="442.0" dur="0.05s" begin="1.2s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="wipe-row-31">
+      <rect x="16.0" y="386.5" width="0" height="13.0">
+        <animate attributeName="width" from="0" to="442.0" dur="0.05s" begin="1.24s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="wipe-row-32">
+      <rect x="16.0" y="397.5" width="0" height="13.0">
+        <animate attributeName="width" from="0" to="442.0" dur="0.05s" begin="1.28s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="wipe-row-33">
+      <rect x="16.0" y="408.5" width="0" height="13.0">
+        <animate attributeName="width" from="0" to="442.0" dur="0.05s" begin="1.32s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="wipe-row-34">
+      <rect x="16.0" y="419.5" width="0" height="13.0">
+        <animate attributeName="width" from="0" to="442.0" dur="0.05s" begin="1.36s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="wipe-row-35">
+      <rect x="16.0" y="430.5" width="0" height="13.0">
+        <animate attributeName="width" from="0" to="442.0" dur="0.05s" begin="1.4s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="wipe-row-36">
+      <rect x="16.0" y="441.5" width="0" height="13.0">
+        <animate attributeName="width" from="0" to="442.0" dur="0.05s" begin="1.44s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="wipe-row-37">
+      <rect x="16.0" y="452.5" width="0" height="13.0">
+        <animate attributeName="width" from="0" to="442.0" dur="0.05s" begin="1.48s" fill="freeze" />
+      </rect>
+    </clipPath>
+  </defs>
+
+  <style>
+    @keyframes cursor-blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    .cursor {
+      animation: cursor-blink 1s infinite;
+    }
+    .ascii-text {
+      fill: #8b949e;
+      font-size: 9.5px;
+      font-weight: 500;
+      letter-spacing: 0px;
+    }
+  </style>
+
+  <!-- Terminal Frame -->
+  <rect x="2" y="2" width="470" height="502" rx="8" ry="8" fill="#0d1117" stroke="url(#term-border)" stroke-width="1.5" />
+
+  <!-- Terminal Titlebar -->
+  <path d="M 2 10 Q 2 2 10 2 L 464 2 Q 472 2 472 10 L 472 40 L 2 40 Z" fill="#161b22" />
+  <line x1="2" y1="40" x2="472" y2="40" stroke="#30363d" stroke-width="1" />
+
+  <!-- macOS Traffic Light Window Buttons -->
+  <circle cx="18" cy="20" r="5" fill="#ff5f56" stroke="#e0443e" stroke-width="0.5" />
+  <circle cx="34" cy="20" r="5" fill="#ffbd2e" stroke="#dea123" stroke-width="0.5" />
+  <circle cx="50" cy="20" r="5" fill="#27c93f" stroke="#1aab29" stroke-width="0.5" />
+
+  <!-- Titlebar Label -->
+  <text x="237.0" y="24" fill="#8b949e" font-size="11" font-weight="500" text-anchor="middle">
+    user@github: ~/avatar.ascii
+  </text>
+
+  <!-- ASCII Art Body with Staggered Horizontal Typing SMIL Wipes -->
+  <g class="ascii-text">
+    <text x="20.0" y="56.0" clip-path="url(#wipe-row-0)" xml:space="preserve">                                                                      </text>
+    <text x="20.0" y="67.0" clip-path="url(#wipe-row-1)" xml:space="preserve">                                                                      </text>
+    <text x="20.0" y="78.0" clip-path="url(#wipe-row-2)" xml:space="preserve">                                                                      </text>
+    <text x="20.0" y="89.0" clip-path="url(#wipe-row-3)" xml:space="preserve">                                                                      </text>
+    <text x="20.0" y="100.0" clip-path="url(#wipe-row-4)" xml:space="preserve">                                      ..                              </text>
+    <text x="20.0" y="111.0" clip-path="url(#wipe-row-5)" xml:space="preserve">                          ..`::===+++=***+-:.                         </text>
+    <text x="20.0" y="122.0" clip-path="url(#wipe-row-6)" xml:space="preserve">                        -*c*csssccccccc*cccc*+=`                      </text>
+    <text x="20.0" y="133.0" clip-path="url(#wipe-row-7)" xml:space="preserve">                       :**cccsscsssscccsc*cc**c+=.                    </text>
+    <text x="20.0" y="144.0" clip-path="url(#wipe-row-8)" xml:space="preserve">                       +c*cccsccsssssscsccsssc**++.                   </text>
+    <text x="20.0" y="155.0" clip-path="url(#wipe-row-9)" xml:space="preserve">                       *#ss###ss####ssssccsccc*c**:                   </text>
+    <text x="20.0" y="166.0" clip-path="url(#wipe-row-10)" xml:space="preserve">                       -####%####cs#ssssssssccsscc`                   </text>
+    <text x="20.0" y="177.0" clip-path="url(#wipe-row-11)" xml:space="preserve">                        `*sss#sc**c#%##sssssssssc*                    </text>
+    <text x="20.0" y="188.0" clip-path="url(#wipe-row-12)" xml:space="preserve">                          *c==+*++*cs######ssssc#`                    </text>
+    <text x="20.0" y="199.0" clip-path="url(#wipe-row-13)" xml:space="preserve">                       .==*s*=+csccc**+*s#####ss+                     </text>
+    <text x="20.0" y="210.0" clip-path="url(#wipe-row-14)" xml:space="preserve">                        +#**+-=*s*+=++==+s##scsc                      </text>
+    <text x="20.0" y="221.0" clip-path="url(#wipe-row-15)" xml:space="preserve">                        .**-::-:-=---===*#cc*+*:                      </text>
+    <text x="20.0" y="232.0" clip-path="url(#wipe-row-16)" xml:space="preserve">                          ---=--:::::-=+cc*c*c-                       </text>
+    <text x="20.0" y="243.0" clip-path="url(#wipe-row-17)" xml:space="preserve">                          `c#s*=----=++****+=:                        </text>
+    <text x="20.0" y="254.0" clip-path="url(#wipe-row-18)" xml:space="preserve">                           *c***c+=+*****+*-                          </text>
+    <text x="20.0" y="265.0" clip-path="url(#wipe-row-19)" xml:space="preserve">                           .**+++++++**c++=                           </text>
+    <text x="20.0" y="276.0" clip-path="url(#wipe-row-20)" xml:space="preserve">                            +*+==***ccsc+=:                           </text>
+    <text x="20.0" y="287.0" clip-path="url(#wipe-row-21)" xml:space="preserve">                            .cs*sssscc**+-=                           </text>
+    <text x="20.0" y="298.0" clip-path="url(#wipe-row-22)" xml:space="preserve">                         .:=c%+-cc**++===-s-.                         </text>
+    <text x="20.0" y="309.0" clip-path="url(#wipe-row-23)" xml:space="preserve">                 ::----=**c#%*--=+===--==c#cc*:.                      </text>
+    <text x="20.0" y="320.0" clip-path="url(#wipe-row-24)" xml:space="preserve">                =c*ccccsss%%s-:=-=====++*#scs#s**:                    </text>
+    <text x="20.0" y="331.0" clip-path="url(#wipe-row-25)" xml:space="preserve">               :s*s#ss##%%scsc-`::---==-*#ssss#ssc+:                  </text>
+    <text x="20.0" y="342.0" clip-path="url(#wipe-row-26)" xml:space="preserve">              .s#sss####scc**csc++=====+s#sscsscs#cs*`                </text>
+    <text x="20.0" y="353.0" clip-path="url(#wipe-row-27)" xml:space="preserve">              c#**#####c******cccssssss##sssss#ss#ss#s+`              </text>
+    <text x="20.0" y="364.0" clip-path="url(#wipe-row-28)" xml:space="preserve">             =##=+#%##c*++**********ccccssssss#sss##sssc-             </text>
+    <text x="20.0" y="375.0" clip-path="url(#wipe-row-29)" xml:space="preserve">             *#######s**+*********c*c#sccs#scsss#ss###sss+            </text>
+    <text x="20.0" y="386.0" clip-path="url(#wipe-row-30)" xml:space="preserve">             :%%#####c********ccc***ccs#ss#scsss#ssss##sss+           </text>
+    <text x="20.0" y="397.0" clip-path="url(#wipe-row-31)" xml:space="preserve">              -s#%%#s*****cccccccc*****c#s#scsss#ssss######`          </text>
+    <text x="20.0" y="408.0" clip-path="url(#wipe-row-32)" xml:space="preserve">                .`:=c*****ccccccccc****cs##sssss##sss####s#+          </text>
+    <text x="20.0" y="419.0" clip-path="url(#wipe-row-33)" xml:space="preserve">                    cc*cccccssssccc****c###sssss##sss######s.         </text>
+    <text x="20.0" y="430.0" clip-path="url(#wipe-row-34)" xml:space="preserve">                    *c*ssssssssscccc***s%##sssss##ss#%%%%%#%=         </text>
+    <text x="20.0" y="441.0" clip-path="url(#wipe-row-35)" xml:space="preserve">             :`     +ccssscccccccccc***sssscssss#sssc-``````.         </text>
+    <text x="20.0" y="452.0" clip-path="url(#wipe-row-36)" xml:space="preserve">                      ...              .     .. .. .                  </text>
+    <text x="20.0" y="463.0" clip-path="url(#wipe-row-37)" xml:space="preserve">                                                                      </text>
+  </g>
+
+  <!-- Divider -->
+  <line x1="16" y1="480.0" x2="458" y2="480.0" stroke="#21262d" stroke-width="1" />
+
+  <!-- Terminal Bottom Prompt -->
+  <text x="20" y="498.0" fill="#58a6ff" font-size="11" font-weight="600">user@github</text>
+  <text x="96" y="498.0" fill="#8b949e" font-size="11">:</text>
+  <text x="104" y="498.0" fill="#7ee787" font-size="11">~</text>
+  <text x="114" y="498.0" fill="#c9d1d9" font-size="11">$ ./whoami.sh</text>
+
+  <!-- Prompt Blinking Cursor -->
+  <rect x="206" y="488.0" width="7" height="12" fill="#58a6ff" class="cursor">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.49;0.5;1" dur="1s" begin="1.57s" repeatCount="indefinite" />
+  </rect>
+</svg>

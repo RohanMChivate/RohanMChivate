@@ -1,0 +1,46 @@
+name: Update Profile Art
+
+on:
+  schedule:
+    # Daily cron at 06:17 UTC
+    - cron: '17 6 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-art:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install CI Dependencies
+        # Only install requests and beautifulsoup4 per execution separation constraint
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+
+      - name: Fetch Public Contributions
+        run: |
+          python scripts/fetch_contributions.py "${{ github.repository_owner }}"
+
+      - name: Render Heatmap SVG
+        run: |
+          python scripts/render_heatmap_svg.py
+
+      - name: Auto-commit Updated Assets
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh contribution graph [skip ci]"
+          file_pattern: "data/contributions.json contrib-heatmap.svg"

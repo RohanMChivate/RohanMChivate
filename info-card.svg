@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 324" width="100%" height="100%" style="background: transparent; font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Monaco, Consolas, monospace;">
+  <defs>
+    <linearGradient id="card-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#30363d" />
+      <stop offset="50%" stop-color="#58a6ff" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#30363d" />
+    </linearGradient>
+  </defs>
+
+  <style>
+        @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(3px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    .cursor { animation: blink 1s infinite; }
+    .line-0 { animation: fadeIn 0.4s ease forwards; animation-delay: 0.15s; opacity: 0; }
+    .line-1 { animation: fadeIn 0.4s ease forwards; animation-delay: 0.27s; opacity: 0; }
+    .line-2 { animation: fadeIn 0.4s ease forwards; animation-delay: 0.39s; opacity: 0; }
+    .line-3 { animation: fadeIn 0.4s ease forwards; animation-delay: 0.51s; opacity: 0; }
+    .line-4 { animation: fadeIn 0.4s ease forwards; animation-delay: 0.63s; opacity: 0; }
+    .line-5 { animation: fadeIn 0.4s ease forwards; animation-delay: 0.75s; opacity: 0; }
+    .line-6 { animation: fadeIn 0.4s ease forwards; animation-delay: 0.87s; opacity: 0; }
+    .key-text {
+      fill: #58a6ff;
+      font-size: 12px;
+      font-weight: 600;
+    }
+    .val-text {
+      fill: #c9d1d9;
+      font-size: 12px;
+      font-weight: 400;
+    }
+  </style>
+
+  <!-- Terminal Window Background -->
+  <rect x="2" y="2" width="486" height="320" rx="8" ry="8" fill="#0d1117" stroke="url(#card-border)" stroke-width="1.5" />
+
+  <!-- Window Header Bar -->
+  <path d="M 2 10 Q 2 2 10 2 L 480 2 Q 488 2 488 10 L 488 38 L 2 38 Z" fill="#161b22" />
+  <line x1="2" y1="38" x2="488" y2="38" stroke="#30363d" stroke-width="1" />
+
+  <!-- macOS / Linux Traffic Light Buttons -->
+  <circle cx="18" cy="19" r="5" fill="#ff5f56" stroke="#e0443e" stroke-width="0.5" />
+  <circle cx="34" cy="19" r="5" fill="#ffbd2e" stroke="#dea123" stroke-width="0.5" />
+  <circle cx="50" cy="19" r="5" fill="#27c93f" stroke="#1aab29" stroke-width="0.5" />
+
+  <!-- Header Title -->
+  <text x="245.0" y="23" fill="#8b949e" font-size="11" font-weight="500" text-anchor="middle">
+    fastfetch --profile ~/.config/fastfetch/config.jsonc
+  </text>
+
+  <!-- Decorative Host Pill -->
+  <rect x="402" y="10" width="72" height="18" rx="4" fill="#1f242c" stroke="#30363d" stroke-width="0.8" />
+  <circle cx="412" cy="19" r="3" fill="#39d353" />
+  <text x="420" y="22" fill="#7ee787" font-size="8.5" font-weight="600">ONLINE</text>
+
+  <!-- Key-Value Rows with Staggered FadeIn -->
+  <g transform="translate(26, 68)">
+    <g class="line-0">
+      <text x="0" y="0" class="key-text">User</text>
+      <text x="82" y="0" fill="#8b949e" font-size="11">›</text>
+      <text x="98" y="0" class="val-text">developer@github</text>
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.15s" fill="freeze" />
+    </g>
+    <g class="line-1">
+      <text x="0" y="28" class="key-text">OS</text>
+      <text x="82" y="28" fill="#8b949e" font-size="11">›</text>
+      <text x="98" y="28" class="val-text">Arch Linux x86_64 / Linux 6.11.0-zen</text>
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.27s" fill="freeze" />
+    </g>
+    <g class="line-2">
+      <text x="0" y="56" class="key-text">Role</text>
+      <text x="82" y="56" fill="#8b949e" font-size="11">›</text>
+      <text x="98" y="56" class="val-text">Senior Systems &amp; Full-Stack Architect</text>
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.39s" fill="freeze" />
+    </g>
+    <g class="line-3">
+      <text x="0" y="84" class="key-text">Stack</text>
+      <text x="82" y="84" fill="#8b949e" font-size="11">›</text>
+      <text x="98" y="84" class="val-text">Python, TypeScript, Rust, Go, SQL, React</text>
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.51s" fill="freeze" />
+    </g>
+    <g class="line-4">
+      <text x="0" y="112" class="key-text">Focus</text>
+      <text x="82" y="112" fill="#8b949e" font-size="11">›</text>
+      <text x="98" y="112" class="val-text">Distributed Systems, Low-Latency Web, Autonomous CI</text>
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.63s" fill="freeze" />
+    </g>
+    <g class="line-5">
+      <text x="0" y="140" class="key-text">Editor</text>
+      <text x="82" y="140" fill="#8b949e" font-size="11">›</text>
+      <text x="98" y="140" class="val-text">Neovim / VS Code</text>
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.75s" fill="freeze" />
+    </g>
+    <g class="line-6">
+      <text x="0" y="168" class="key-text">Location</text>
+      <text x="82" y="168" fill="#8b949e" font-size="11">›</text>
+      <text x="98" y="168" class="val-text">UTC / Remote</text>
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.87s" fill="freeze" />
+    </g>
+  </g>
+
+  <!-- Divider Line -->
+  <line x1="24" y1="268" x2="466" y2="268" stroke="#21262d" stroke-width="1" />
+
+  <!-- Terminal Color Swatches (Neofetch Classic ANSI) -->
+  <g transform="translate(26, 282)">
+    <rect x="0" y="0" width="20" height="9" rx="2" fill="#161b22" stroke="#30363d" stroke-width="0.5" />
+    <rect x="24" y="0" width="20" height="9" rx="2" fill="#ff5f56" />
+    <rect x="48" y="0" width="20" height="9" rx="2" fill="#27c93f" />
+    <rect x="72" y="0" width="20" height="9" rx="2" fill="#ffbd2e" />
+    <rect x="96" y="0" width="20" height="9" rx="2" fill="#58a6ff" />
+    <rect x="120" y="0" width="20" height="9" rx="2" fill="#bc8cff" />
+    <rect x="144" y="0" width="20" height="9" rx="2" fill="#39c5cf" />
+    <rect x="168" y="0" width="20" height="9" rx="2" fill="#c9d1d9" />
+
+    <!-- Terminal Prompt with Blinking Cursor -->
+    <text x="356" y="9" fill="#58a6ff" font-size="10.5" font-weight="600">user@github</text>
+    <rect x="430" y="0" width="6" height="10" fill="#58a6ff" class="cursor">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.49;0.5;1" dur="1s" repeatCount="indefinite" />
+    </rect>
+  </g>
+</svg>
