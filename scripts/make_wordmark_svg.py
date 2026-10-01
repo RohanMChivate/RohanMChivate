@@ -41,15 +41,15 @@ DEFAULT_FONT_PATH, DEFAULT_FONT_INDEX = find_default_font()
 FONT_PATH = DEFAULT_FONT_PATH
 FONT_INDEX = DEFAULT_FONT_INDEX
 
-COLS = int(os.environ.get("WORDMARK_COLS", 52))
+COLS = int(os.environ.get("WORDMARK_COLS", 72))
 ROW_MARGIN = int(os.environ.get("WORDMARK_ROW_MARGIN", 3))
-CELL_W = 8.6
-CELL_H = 14.2
+CELL_W = 6.2
+CELL_H = 10.4
 
 TEXT = os.environ.get("WORDMARK_TEXT", "ROHAN")
 USER_HANDLE = os.environ.get("WORDMARK_USER", "rohan")
 
-MASK_H = 260
+MASK_H = 360
 TRACKING = 0.12
 LINE_GAP = 1.20
 DEPTH_FRAC = 0.32
@@ -182,8 +182,7 @@ def project(P, N, yaw_rad):
     u = FOCAL * X / Z_cam
     v = FOCAL * Y / Z_cam
 
-    cos_theta = -(NX * LIGHT[0] + NY * LIGHT[1] + NZ * LIGHT[2])
-    cos_theta = np.clip(cos_theta, 0.0, 1.0)
+    cos_theta = np.clip(NX * LIGHT[0] + NY * LIGHT[1] + NZ * LIGHT[2], 0.0, 1.0)
     shade = AMBIENT + (1.0 - AMBIENT) * cos_theta
 
     z_norm = (Z - Z.min()) / max(1e-5, (Z.max() - Z.min()))
