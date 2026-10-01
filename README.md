@@ -2,11 +2,6 @@
 
 # ⚡ ROHAN CHIVATE ⚡
 
-[![Refresh Telemetry](https://github.com/RohanMChivate/RohanMChivate/actions/workflows/update-profile-art.yml/badge.svg)](https://github.com/RohanMChivate/RohanMChivate/actions)
-![Status](https://img.shields.io/badge/SYS_STATUS-OPTIMAL-39d353?style=flat-square&logo=gnubash&logoColor=white)
-![SVG](https://img.shields.io/badge/GRAPHICS-PURE_SVG-58a6ff?style=flat-square&logo=svg&logoColor=white)
-![Automation](https://img.shields.io/badge/TELEMETRY-DAILY_SYNC-bc8cff?style=flat-square&logo=githubactions&logoColor=white)
-
 <br />
 
 <h3><code>Rohan Chivate</code></h3>
