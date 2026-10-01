@@ -12,7 +12,7 @@
       <img src="./avi-ascii.svg" width="370" alt="Terminal ASCII Portrait" />
     </td>
     <td valign="top" width="490" align="center">
-      <img src="./info-card.svg" width="490" alt="Terminal Info Card" />
+      <img src="./wordmark.svg" width="490" alt="ROHAN — 3D ASCII wordmark" />
     </td>
   </tr>
 </table>
@@ -20,6 +20,10 @@
 <br />
 
 <img src="./contrib-heatmap.svg" width="860" alt="GitHub Contribution Heatmap" />
+
+<br /><br />
+
+<img src="./info-card.svg" width="640" alt="Terminal Info Card" />
 
 <br /><br />
 
@@ -47,10 +51,6 @@
     <p><b>• Tokenless Telemetry:</b> Automatically syncs contribution metrics and streaks from public GitHub calendar data.</p>
     <p><b>• Autonomous CI:</b> GitHub Actions workflow refreshes the heatmap SVG every day at <code>06:17 UTC</code> via <code>update-profile-art.yml</code>.</p>
   </blockquote>
-  <br />
-  <p align="center">
-    <img src="./wordmark.svg" width="490" alt="ROHAN — 3D ASCII wordmark" />
-  </p>
 </details>
 
 <br />
