@@ -24,8 +24,6 @@
 
 <br />
 
-<h3><code>rohan@terminal ~ $ ./contributions.sh --view=matrix</code></h3>
-
 <img src="./contrib-heatmap.svg" width="860" alt="GitHub Contribution Heatmap" />
 
 <br /><br />
